@@ -1,4 +1,4 @@
-# Django Upwork portfolio
+# My portfolio site
 
 Simple portfolio website based on this [HTML template from Ryan Fitzgerald](https://github.com/RyanFitzgerald/devportfolio-template)
 
