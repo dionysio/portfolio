@@ -103,5 +103,4 @@ base/templates/svg/*.png
 .firebase
 .firebaserc
 .env
-public
 static

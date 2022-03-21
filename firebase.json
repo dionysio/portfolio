@@ -6,9 +6,11 @@
       "**/.*",
       "**/node_modules/**"
     ],
-  "rewrites": [{
-    "source": "!/@(public|media)/**",
-    "destination": "/index.html"
-  } ]
+    "rewrites": [
+      {
+        "source": "!/@(public|media|robots.txt)/**",
+        "destination": "/index.html"
+      }
+    ]
   }
 }
