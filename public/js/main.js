@@ -39,8 +39,8 @@ var name_animation = function() {
 
 $( document ).ready( function() {
     var currentYear = new Date().getFullYear();
-    $('#currentYear').text = currentYear;
-    $('#experience').text = currentYear - 2016;
+    $('#currentYear').text(currentYear);
+    $('#experience').text(currentYear - 2016);
     var header = $('header');
     var close = $('#mobile-menu-close');
     $('#mobile-menu-open').on('click', function() {
