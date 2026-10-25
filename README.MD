@@ -12,7 +12,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Deployment
 
-Hosted on Cloudflare Pages. It's plain static HTML, so there is no build step: the repo root is published as-is (see `wrangler.toml`).
+Hosted on Cloudflare Workers (static assets). It's plain static HTML, so there is no build step: the repo root is published as-is (see `wrangler.toml`, files listed in `.assetsignore` are skipped).
 
-- Git integration: framework preset `None`, build command empty, build output directory `/`.
-- Manual deploy: `npx wrangler pages deploy`
+Deploy: `npx wrangler deploy` (Workers Builds runs this on every push to `master`).
