@@ -2,6 +2,5 @@
 wrangler.toml
 README.MD
 LICENSE
-.static
 .gitignore
 .assetsignore
