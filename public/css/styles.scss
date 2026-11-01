@@ -272,7 +272,7 @@ section:nth-child(odd) {
     -------------------------------
 */
 
-#skills {
+#skills, #impact {
     h2 {
         margin-bottom: 50px;
     }
@@ -513,7 +513,7 @@ section:nth-child(odd) {
     text-align: center;
 }
 
-#skills li, #contact li {
+#skills li, #impact li, #contact li {
     background-color: #fff;
 }
 

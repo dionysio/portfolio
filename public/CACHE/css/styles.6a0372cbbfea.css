@@ -215,18 +215,18 @@ section:nth-child(odd) {
     -------------------------------
 */
 /* line 266, base/static/css/styles.scss */
-#skills h2 {
+#skills h2,#impact h2 {
   margin-bottom: 50px; }
 
 /* line 270, base/static/css/styles.scss */
-#skills ul {
+#skills ul,#impact ul {
   display: block;
   margin: 0 auto;
   padding: 0;
   max-width: 800px; }
 
 /* line 277, base/static/css/styles.scss */
-#skills li {
+#skills li,#impact li {
   display: inline-block;
   margin: 7px;
   padding: 5px 10px;
@@ -430,7 +430,7 @@ section:nth-child(odd) {
   text-align: center; }
 
 /* line 506, base/static/css/styles.scss */
-#skills li, #contact li {
+#skills li,#impact li, #contact li {
   background-color: #fff; }
 
 /* line 510, base/static/css/styles.scss */
